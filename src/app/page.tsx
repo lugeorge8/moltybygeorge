@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { USE_CASES } from '@/lib/content/use-cases';
+import { COMMUNITY_BUILDS } from '@/lib/content/community-builds';
 
 export default function UseCasesPage() {
   return (
@@ -16,7 +17,7 @@ export default function UseCasesPage() {
         {USE_CASES.map((u) => (
           <div
             key={u.slug}
-            className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md dark:border-slate-800 dark:bg-slate-950"
+            className="rounded-2xl border border-orange-200/70 bg-white/70 p-6 shadow-sm backdrop-blur transition-shadow hover:shadow-md dark:border-orange-400/20 dark:bg-black/20"
           >
             <div className="text-lg font-semibold">{u.title}</div>
             <div className="mt-1 text-sm text-slate-600 dark:text-slate-400">{u.oneLiner}</div>
