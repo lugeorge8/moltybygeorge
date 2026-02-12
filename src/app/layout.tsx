@@ -11,6 +11,7 @@ const nav = [
   { href: '/', label: 'Use cases' },
   { href: '/community', label: 'Community builds' },
   { href: '/integrations', label: 'Integrations' },
+  { href: '/skills', label: 'Skills' },
   { href: '/mag7', label: 'Mag7 news' },
   { href: '/activity', label: 'Activity' },
 ];
