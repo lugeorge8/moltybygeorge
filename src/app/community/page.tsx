@@ -7,7 +7,7 @@ export default function CommunityPage() {
       <section>
         <h1 className="text-3xl font-semibold tracking-tight">Community builds</h1>
         <p className="mt-3 max-w-2xl text-sm leading-6 text-orange-900/70 dark:text-orange-100/70">
-          A curated list of applications built using OpenClaw. Requested source: X/Twitter.
+          A curated list of applications built using OpenClaw.
         </p>
       </section>
 
